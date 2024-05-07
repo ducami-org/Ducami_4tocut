@@ -21,7 +21,7 @@ export const ResultContent = styled.div`
   /* width: 450px;
   height: 700px; */
   width: 450px;
-  height: 675px;
+  height: 667px;
   position: absolute;
   /* background-color: black; */
   background-color: ${(props) => props.backColor};

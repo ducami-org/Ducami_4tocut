@@ -17,7 +17,7 @@ const Result = () => {
   // 기본색은 검정
   const [resultBackColor, setResultBackColor] = useState("black");
   const [resultBackImg, setResultBackImg] = useState();
-  const [comment, setCommnet] = useState("2023년 5월 5일 어린이날");
+  const [comment, setCommnet] = useState("2024년 5월 5일 어린이날");
   //   const [commentOption,setCommentOption] = useState({
   //     color:"white",
   //     bold:false,
@@ -105,10 +105,6 @@ const Result = () => {
             <SampleCom
               clickHandler={() => setResultBackImg(cloud)}
               source={cloud}
-            />
-            <SampleCom
-              clickHandler={() => setResultBackImg(galaxy)}
-              source={galaxy}
             />
             <SampleCom
               clickHandler={() => setResultBackImg(galaxy)}
